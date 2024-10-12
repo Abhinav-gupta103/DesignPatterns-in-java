@@ -1,4 +1,4 @@
-package sample.DesignPatterns.Singelton;
+package Singelton;
 
 public class Singelton {
 

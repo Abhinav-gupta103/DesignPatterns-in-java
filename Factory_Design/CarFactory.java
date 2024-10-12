@@ -1,6 +1,7 @@
-package sample.DesignPatterns.Factory_Design;
+package Factory_Design;
 
 public class CarFactory {
+    // Factory method to create car objects based on car type
     public Car getCar(String carType) {
         if (carType == null) {
             return null;

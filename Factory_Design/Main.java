@@ -1,4 +1,4 @@
-package sample.DesignPatterns.Factory_Design;
+package Factory_Design;
 
 public class Main {
     public static void main(String[] args) {
