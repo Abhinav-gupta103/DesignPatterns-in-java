@@ -1,5 +1,6 @@
 package StrategyPattern;
 
+// Step 2:- Implement Concrete Strategies
 public class BitcoinStrategy implements PaymentStrategy {
     private String walletAddress;
 

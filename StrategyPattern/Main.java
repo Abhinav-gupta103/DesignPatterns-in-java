@@ -1,6 +1,8 @@
 package StrategyPattern;
 
 public class Main {
+
+    // Step 5:- Main method to use strategy pattern
     public static void main(String[] args) {
         ShoppingCart cart = new ShoppingCart();
         cart.addItem(new Item("1234", 100));

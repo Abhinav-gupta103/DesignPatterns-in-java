@@ -1,5 +1,6 @@
 package StrategyPattern;
 
+// Step 3:- Context class
 public class Item {
     private String code;
     private int price;

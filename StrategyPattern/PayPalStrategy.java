@@ -1,5 +1,6 @@
 package StrategyPattern;
 
+// Step 2:- Implement Concrete Strategies
 public class PayPalStrategy implements PaymentStrategy {
 
     private String email;

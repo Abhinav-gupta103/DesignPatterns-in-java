@@ -3,6 +3,7 @@ package StrategyPattern;
 import java.util.ArrayList;
 import java.util.List;
 
+// Step 3:- Context class
 public class ShoppingCart {
     private List<Item> items;
 
