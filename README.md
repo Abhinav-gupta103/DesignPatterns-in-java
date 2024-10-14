@@ -71,7 +71,9 @@ Example Use Case: Adapting a third-party library that uses a different interface
 7. Command Pattern (Behavioral)
 
    • Purpose: Encapsulates a request as an object, thereby allowing clients to queue, log, and undo operations.
+
    • Where it’s used: Undo/redo functionality, transaction systems.
+
    • Importance: It decouples the sender of a request from its receiver, allowing for more flexible architectures where commands can be queued, logged, or undone.
 
 Example Use Case: A remote control where each button press is treated as a command object that can be executed, reversed, or logged.
