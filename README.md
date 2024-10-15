@@ -77,3 +77,11 @@ Example Use Case: Adapting a third-party library that uses a different interface
    • Importance: It decouples the sender of a request from its receiver, allowing for more flexible architectures where commands can be queued, logged, or undone.
 
 Example Use Case: A remote control where each button press is treated as a command object that can be executed, reversed, or logged.
+
+8. Facade Pattern (Structural)
+
+   • Purpose: Provides a unified interface to a set of interfaces in a subsystem, simplifying the complexity of the system.
+   • Where it’s used: When dealing with complex systems, libraries, or APIs where a simpler interface is desirable.
+   • Importance: It reduces the complexity for clients and makes a system easier to use.
+
+Example Use Case: A simplified API for complex interactions with a third-party payment gateway.
