@@ -81,7 +81,9 @@ Example Use Case: A remote control where each button press is treated as a comma
 8. Facade Pattern (Structural)
 
    • Purpose: Provides a unified interface to a set of interfaces in a subsystem, simplifying the complexity of the system.
+   
    • Where it’s used: When dealing with complex systems, libraries, or APIs where a simpler interface is desirable.
+
    • Importance: It reduces the complexity for clients and makes a system easier to use.
 
 Example Use Case: A simplified API for complex interactions with a third-party payment gateway.
@@ -89,8 +91,39 @@ Example Use Case: A simplified API for complex interactions with a third-party p
 9. Builder Pattern (Creational)
 
    • The Builder Pattern is a creational design pattern that allows you to create complex objects step by step. Unlike other creational patterns, the Builder pattern separates the construction of a complex object from its representation, allowing you to create different representations by reusing the same construction process.
+   
    • It is usefull when :-
       - The object you want to create has multiple fields, especially optional fields.
       - You want to create an object in a step-by-step process while keeping the construction logic separate from the object’s representation.
 
 Example Use Case: Creating a complex meal order where you can choose specific ingredients, drink, and dessert.
+
+10. Prototype Pattern (Creational)
+
+	•	Purpose: Creates new objects by cloning an existing object, useful when object creation is expensive.
+
+	•	Where it’s used: In scenarios where creating a new instance of a class is costly (e.g., resource-heavy or time-consuming).
+
+	•	Importance: It reduces the cost of creating new objects by copying an existing instance.
+
+Example Use Case: Copying an object in a game like a character or a weapon with its current state.
+
+Why These Patterns are Important
+
+   1.	Reusability: These patterns are designed to solve common problems in a reusable manner.
+
+   2.	Maintainability: They promote clean, modular, and maintainable code structures.
+
+   3.	Scalability: Design patterns help in building software that can scale and evolve without needing major refactoring.
+ 
+   4.	Decoupling: Many patterns, like the Observer, Command, and Facade, help decouple code, reducing dependencies and increasing flexibility.
+
+When to Use Design Patterns
+
+   •	Complexity Management: Use patterns when your codebase grows complex, and you need modular, reusable, and scalable solutions.
+	
+   •	Common Solutions: When faced with a recurring problem or design challenge, patterns provide tried-and-tested solutions.
+	
+   •	Team Collaboration: Patterns provide a common language for developers, helping teams collaborate more effectively.
+
+These are some of the most important design patterns that every developer should understand. They provide powerful solutions to common architectural challenges and help you write more efficient, maintainable, and scalable software.
