@@ -85,3 +85,12 @@ Example Use Case: A remote control where each button press is treated as a comma
    • Importance: It reduces the complexity for clients and makes a system easier to use.
 
 Example Use Case: A simplified API for complex interactions with a third-party payment gateway.
+
+9. Builder Pattern (Creational)
+
+   • The Builder Pattern is a creational design pattern that allows you to create complex objects step by step. Unlike other creational patterns, the Builder pattern separates the construction of a complex object from its representation, allowing you to create different representations by reusing the same construction process.
+   • It is usefull when :-
+      - The object you want to create has multiple fields, especially optional fields.
+      - You want to create an object in a step-by-step process while keeping the construction logic separate from the object’s representation.
+
+Example Use Case: Creating a complex meal order where you can choose specific ingredients, drink, and dessert.
