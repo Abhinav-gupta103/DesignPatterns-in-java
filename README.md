@@ -56,6 +56,8 @@ Example Use Case: Different payment methods (credit card, PayPal, cryptocurrency
 
    • Importance: It provides a more flexible alternative to subclassing for extending functionality.
 
+   • Decorator class is the abstract class which is excented by sub decorator classes
+
 Example Use Case: A text editor where different decorators (bold, italic, underline) can be applied to a text object.
 
 6. [Adapter Pattern (Structural)](https://github.com/Abhinav-gupta103/DesignPatterns-in-java/tree/main/Adapter_Pattern)

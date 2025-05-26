@@ -10,7 +10,6 @@ public class Main {
 
         cart.pay(new CreditCardStrategy("1234567889", "Abhinav Gupta", "123", "12/23"));
         cart.pay(new PayPalStrategy("abhinav.gupta234@hello.com", "password890"));
-
         cart.pay(new BitcoinStrategy("1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"));
     }
 }
